@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_bg">#00BCD4</color>
+    <color name="text_color">#4F4F4F</color>
+    <color name="name_bg">#B487BC</color>
+    <color name="name_text">#9C0DB5</color>
+    <color name="edit_bg">#0066D4</color>
+    <color name="layout_text_bg">#CD9600</color>
+    <color name="layout_bg">#FFBC00</color>
+    <color name="bomb_txt">#FFEB3B</color>
+    <color name="attack_bg">#B3000000</color>
+    <color name="no_bg">#00FFFFFF</color>
+    <color name="music_bg">#B3B6B5B5</color>
+</resources>

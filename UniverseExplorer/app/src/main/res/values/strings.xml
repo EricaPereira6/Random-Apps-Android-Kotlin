@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Universe Explorer</string>
+    <string name="title_string">Planets</string>
+    <string name="free_planet_string">Free Planets</string>
+    <string name="mercury_string">Mercury</string>
+
+    <string name="background_galaxy_content">background galaxy</string>
+    <string name="planet_image_content">planet central image</string>
+    <string name="grid_image_content">grid image of free planet</string>
+    <string name="attack_planet_content">Attack a planet</string>
+
+    <string name="mass_string">Mass:</string>
+    <string name="mass_value">0</string>
+    <string name="gravity_string">Gravity:</string>
+    <string name="gravity_value">0</string>
+    <string name="colonies_string">N. of Colonies:</string>
+    <string name="colonies_value">0</string>
+    <string name="military_string">N. of Military Bases:</string>
+    <string name="military_value">0</string>
+    <string name="force_field_string">Force Field:</string>
+    <string name="force_field_value">false</string>
+
+    <string name="menu_colonize">Colonize planet</string>
+    <string name="menu_update_planet">Update Planet Data</string>
+    <string name="menu_show_surface">Show Planet Surface</string>
+    <string name="menu_attack_planet">Attack Planet</string>
+
+    <string name="play_button">Play</string>
+    <string name="pause_button">Pause</string>
+
+    <string name="bomb_planet_string">Bomb planet</string>
+    <string name="invade_planet_string">Invade planet</string>
+    <string name="infect_planet_string">Infect planet</string>
+    <string name="laser_planet_string">Laser planet</string>
+    <string name="exit_attack_string">Exit attack</string>
+
+    <string name="music_on_string">Music On</string>
+    <string name="music_off_string">Music Off</string>
+</resources>
