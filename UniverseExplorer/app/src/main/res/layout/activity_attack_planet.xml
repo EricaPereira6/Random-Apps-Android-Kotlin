@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttackPlanetActivity">
+
+    <ImageView
+        android:id="@+id/attackBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/background_galaxy_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/galaxy4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/attackBackground">
+
+        <TextView
+            android:id="@+id/attackPlanetName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="#B3B487BC"
+            android:gravity="center"
+            android:text="@string/mercury_string"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/attackPlanetImage"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0"
+            android:contentDescription="@string/planet_image_content"
+            app:srcCompat="@drawable/mercury_small" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.20" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/attackBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TableRow
+            android:id="@+id/bombRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bombButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.4"
+                android:backgroundTint="@color/no_bg"
+                android:contentDescription="@string/attack_planet_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bomb_selector" />
+
+            <TextView
+                android:id="@+id/bomb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/attack_bg"
+                android:gravity="center"
+                android:text="@string/bomb_planet_string"
+                android:textAlignment="center"
+                android:textColor="@color/bomb_txt"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/invadeRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/invadeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.4"
+                android:backgroundTint="@color/no_bg"
+                android:contentDescription="@string/attack_planet_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/invade_selector" />
+
+            <TextView
+                android:id="@+id/invade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/attack_bg"
+                android:gravity="center"
+                android:text="@string/invade_planet_string"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/infectRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/infectButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.4"
+                android:contentDescription="@string/attack_planet_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/infect_selector" />
+
+            <TextView
+                android:id="@+id/infect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/attack_bg"
+                android:gravity="center"
+                android:text="@string/infect_planet_string"
+                android:textAlignment="center"
+                android:textColor="#26CF00"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/laserRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/laserButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.4"
+                android:backgroundTint="@color/no_bg"
+                android:contentDescription="@string/attack_planet_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/laser_selector" />
+
+            <TextView
+                android:id="@+id/laser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/attack_bg"
+                android:gravity="center"
+                android:text="@string/laser_planet_string"
+                android:textAlignment="center"
+                android:textColor="#A500FF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/exitRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.2"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/exitButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.4"
+                android:backgroundTint="@color/no_bg"
+                android:contentDescription="@string/attack_planet_content"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/exit" />
+
+            <TextView
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/attack_bg"
+                android:gravity="center"
+                android:text="@string/exit_attack_string"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/music_bg"
+        android:text="@string/music_on_string"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/attackBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
