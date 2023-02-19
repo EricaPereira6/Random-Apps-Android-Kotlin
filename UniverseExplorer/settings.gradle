@@ -1,0 +1,2 @@
+rootProject.name='Universe Explorer'
+include ':app'
