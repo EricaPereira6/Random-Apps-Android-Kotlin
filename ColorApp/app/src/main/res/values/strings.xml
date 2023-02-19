@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Color App</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="blue_string">Blue</string>
+    <string name="incr_btn">+</string>
+    <string name="red_btn">100</string>
+    <string name="decr_btn">-</string>
+    <string name="green_btn">100</string>
+    <string name="blue_btn">100</string>
+    <string name="final_color_string">100, 100, 100</string>
+</resources>

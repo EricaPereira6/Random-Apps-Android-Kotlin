@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Events App</string>
+    <string name="sep_string">Sep</string>
+    <string name="clear_string">Clear</string>
+    <string name="blt_disc_string">BLT DISC</string>
+    <string name="blt_ann_string">BLT ANN</string>
+</resources>

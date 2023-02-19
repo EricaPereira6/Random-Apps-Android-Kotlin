@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="on_create_bg">#6637FF00</color>
+    <color name="normal_methods_bg">#66FFFF00</color>
+    <color name="instance_state_bg">#66FF9902</color>
+    <color name="screen_turned_bg">#66FF0000</color>
+    <color name="bluetooth_bg">#6600BCD4</color>
+    <color name="separator">#66A6A6A6</color>
+    <color name="bg">#EAEAEA</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blt_extra_bg">#660000FF</color>
+</resources>
